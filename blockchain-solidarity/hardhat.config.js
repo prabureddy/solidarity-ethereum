@@ -21,7 +21,7 @@ module.exports = {
   networks: {
     rinkeby: {
       url: "https://eth-rinkeby.alchemyapi.io/v2/QpU7KnqsKyVHYOUT1hjThqlfghNc0eIz",
-      accounts: ["PRIVATE_KEY"],
+      accounts: [process.env.PRIVATE_KEY],
     },
   },
 };
